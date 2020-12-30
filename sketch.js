@@ -32,7 +32,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1500, 1000);
+  createCanvas(windowWidth, windowHeight);
   player = createSprite(200, 400);
   player.addImage(playerIM);
   player.scale = 0.3;
