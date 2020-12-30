@@ -110,6 +110,9 @@ function draw() {
     shark3.visible = false;
     shark4.visible = false;
     shark5.visible = false;
+    
+    camera.x = 720
+    camera.y = 410.25
 
     player.visible = false;
 
